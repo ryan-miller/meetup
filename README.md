@@ -12,7 +12,7 @@ Sample code for Fastly api used during security team meetup
 
 We will work through creating a simple, single page web app (api.html). Through a series of "simple" steps, we'll progress from a simple html page to a nicely formatted list of users in a corp. 
 
-There are numerous frameworks and tools to make life easier when doing JavaScript and CSS styling with a reasonable learning curve. We will be working with possibly the two most common frameworks - jQuery for JavaScript and Bootstrap for CSS. 
+There are numerous frameworks and tools to make life easier when doing JavaScript and CSS styling with a reasonable learning curve. We will be working with possibly the two most common frameworks - [jQuery](https://jquery.com)) for JavaScript and [Bootstrap](https://getbootstrap.com) for CSS. 
 
 ## Steps
 
