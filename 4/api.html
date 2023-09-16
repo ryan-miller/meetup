@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fastly API Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script>
+
+        $("document").ready(function(){
+
+            var HEADERS = {
+                "x-api-token": "<<insert token>>",
+                "x-api-user": "ryan.l.miller@icloud.com",
+                "Content-Type": "application/json"
+            }
+
+            $.ajax({
+                "url" : "https://dashboard.signalsciences.net/api/v0/corps/rlm/users",
+                "method": "GET",
+                "headers": HEADERS
+            }).done(function(response) {
+                displaySites(response.data);
+            })
+        })
+
+        function displaySites(sites) {
+            $.each(sites, function(i, row) {
+                $('body').append("<br\>" + row.email + " " + row.role + " " + row.status);
+            })
+        }
+    </script>
+</head>
+<body>
+
+    It works.
+
+</body>
+</html>
