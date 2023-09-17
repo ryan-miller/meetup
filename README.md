@@ -16,7 +16,7 @@ There are numerous frameworks and tools to make life easier when doing JavaScrip
 
 ## Steps
 
-After downloading the repo either via git desktop, cli or simply download.
+After downloading the repo either via git desktop, cli or simply download (Ryan to show steps):
 1. Open api.html in the browser.
 2. Add in jQuery.
 3. Make an API call.
